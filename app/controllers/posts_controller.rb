@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+    #create pulll
     def create
         @post = Post.new(post_params)
         if post.save
